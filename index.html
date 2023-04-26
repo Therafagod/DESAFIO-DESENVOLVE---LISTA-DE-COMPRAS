@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Lista de Compras</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+	<div class="container">
+			<h1><img class="banner" src="img/banner_2.png"></h1>
+		<div>
+			<label for="item">Item:</label>
+			<input class="item_input" type="text" id="item">
+			<label for="quantidade">Quantidade:</label>
+			<input class="quantidade_input" type="number" id="quantidade" min="1">
+			<button id="adicionar">Adicionar</button>
+		</div>
+
+		<ul id="lista">
+		</ul>
+
+		<button id="limpar">Limpar Lista</button>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
